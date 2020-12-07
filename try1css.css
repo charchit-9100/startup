@@ -1,0 +1,54 @@
+*{
+	font-weight: normal;
+	}
+h1{
+	color: gold;
+	text-align: center;
+	/*text-decoration: underline;*/
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+	font-size: 40px;
+	cursor: default;
+	font-family: fantasy;
+}
+div{
+	display: flex;
+	justify-content: space-around;
+}
+a{
+	color: gold;
+	line-height: 50px;
+	/*font-weight: bold;*/
+	font-size: 1.5em;
+}
+a:hover{
+	transition: all 1s;
+	background-color: gold;
+	color: black;
+	border-radius: 20px;
+}
+body{
+	cursor: default;
+	color: gold;
+	line-height: 23px;
+	 background: url(goldenskull.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: fantasy;
+	background-size: cover;
+}
+
+input{
+	background-color: gold;
+	font-family: fantasy;
+	border-radius: 25px;
+	border-color: gold;
+	color: black;
+}
+form{
+	/*background: gold;*/
+	/*border: 2px solid rgb( 40, 0, 0);*/
+	/*display: inline-block;*/
+}

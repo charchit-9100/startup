@@ -1,0 +1,35 @@
+
+.image {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	font-family: fantasy;
+	font-size: 2em;
+	color: gold;
+	border-bottom: 2px solid gold;
+	border-right: 2px solid gold;
+	box-shadow: 4px 4px 5px #888888;
+	width: 400px;
+	text-align: center;
+}
+body {
+	margin: 50px;
+	margin-top: 10px;
+	font-family: fantasy;
+	cursor: default;
+	color: gold;
+	line-height: 23px;
+	background-image: url(goldenskull.jpg);
+	background-size: cover;
+}  
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition:all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
